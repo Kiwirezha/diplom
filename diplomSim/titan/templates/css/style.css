@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body{
+    height: 100%;
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 100px;
+    align-items: center;
+    padding: 0px 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+}
+.reg{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.regis{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: darkorange;
+    border: 1px black solid;
+    padding: 10px;
+    margin-top: 15px;
+    height: 32px;
+    width: 278px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form_auth_button{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    background-color: darkorange;
+    color: black;
+    font-weight: bold;
+
+}
+
+
+.opisanie{
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    padding-bottom: 100px;
+    color: white;
+}
+.text1{
+    position: absolute;
+    text-align: right;
+    margin-left: 1000px;
+    margin-right: 100px;
+    font-size: 2em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.opis_img{
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    border: 3px solid #ffffffcc;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+.log{
+    width: 40px;
+    height: 40px;
+}
+.header-part{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header nav ul li{
+    position: relative;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul li a{
+    padding: 20px;
+    color: white;
+    font-size: 16px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+header nav ul li a:hover{
+    color: darkorange;
+}
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 165px;
+    background: black;
+    display: none;
+}
+
+nav ul li:hover > ul{
+    display: initial;
+}
+.logo{
+    height: 90px;
+    width: 150px;
+}
+
+.weaponss{
+    background-image: url("../../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card_gun{
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.card_gun a{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.card_img{
+    height: 100px;
+    width: auto;
+}
+.weapon{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+.weapon_img{
+    width: 300px;
+    height: auto;
+}
+.weapon-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.weapon-name{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.weapon-type{
+    font-size: 25px;
+    text-transform: uppercase;
+    
+}
+.weapon-opis{
+    font-size: 20px;
+    width: 400px;
+    text-align: left;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(70, 69, 68) ;
+}
+.weapon-but{
+    padding: 20px;
+    
+    color: white;
+    font-size: 16px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.weapon-but :hover{
+    color: darkorange;
+}
+.h1guns{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 28px;
+}
+.photos249{
+    text-align: center;
+    
+    
+}
+
+
+.divh1{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 24px;
+}
+.photostitans{
+    text-align: center;
+    margin: 150px;
+    
+}
+
+.icontitans:hover{
+    transform: scale(1.2); 
+}
+.divlogo{
+    text-align: center;
+    padding-top: 200px;
+}
+
+.search{
+    font-size: 20px;
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-right: 5px;
+}
+.user_a{
+    color: white;
+    font-size: 66px;
+    width: 400px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 40px;
+    border: solid white 1px;
+    background-color:rgba(255, 140, 0, 0.192) ;
+}
+
+.form_auth_block{
+    font-size: 55px;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+.form_auth_block_content{
+    height: 100%;
+    width: 100%;
+    padding-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+.form_auth_style{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+    color: white;
+}
+.form_auth_style label{
+    padding: 5px;
+    padding-top: 15px;
+}
+.form_auth_style input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.form_auth_style textarea{
+    width: 500px;
+    font-size: 20px;
+}
+.form_auth_style input{
+    color: black;
+}
+.form_auth_style label{
+    color: black;
+}
+.form_auth_block_head_text{
+    padding: 15px;
+    color: white;
+}
+
+.table-responsive{
+    color: white;
+    padding: 10px;
+}
+th{
+    padding-right: 40px;
+}
+.faq{
+    font-size: 34px;
+    margin: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+.faq1{
+    list-style-type:  none;
+    margin: 30px;
+}
+.articlescorch {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px darkorange ;
+}
+.articlesronin{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(255, 42, 4);
+}
+.articlestone{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(21, 255, 0);
+}
+.articlesnorthstar{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(0, 47, 255);
+}
+.articleslegion{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(251, 255, 0);
+}
+.articlesmonarch{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f900;
+    box-shadow: 0 0 15px rgb(0, 109, 54);
+}
+.titanimg{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+
+}
+.bodytitans{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.h1titans{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.ptitans{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+
+}
